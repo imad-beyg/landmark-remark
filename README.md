@@ -14,11 +14,11 @@ functionality captured in the following user stories:
 Frontend Stack:
 
 ```
-React, Redux, Leaflet ,  Webpack4, Babel, SASS, Bootstrap 4
+React, Redux, Leaflet,  Webpack4, Babel, SASS, Bootstrap 4,
 ```
 
 Backend Stack:
-Node.js, MongoDB
+Node, Express, MongoDB
 
 ## Getting Started
 
@@ -35,3 +35,12 @@ Visual Studio Code - Install from https://code.visualstudio.com/
 4. `npm install`
 5. `cd ..`
 6. `npm run dev`
+
+### Additional Information
+
+
+An application uses `mLab` which is a fully managed cloud database service that hosts MongoDB databases.
+`npm run dev` runs server and client using `concurrently`
+`http://localhost:5000`  
+`http://localhost:3000`
+
