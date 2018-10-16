@@ -38,9 +38,10 @@ Visual Studio Code - Install from https://code.visualstudio.com/
 
 ### Additional Information
 
-
 An application uses `mLab` which is a fully managed cloud database service that hosts MongoDB databases.
-`npm run dev` runs server and client using `concurrently`
-`http://localhost:5000`  
-`http://localhost:3000`
 
+`npm run dev` runs server and client using `concurrently`
+
+`http://localhost:5000`
+
+`http://localhost:3000`
