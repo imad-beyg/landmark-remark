@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900");
+body {
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #003e80;
+  // animation: bg-color 10s infinite;
+ // -webkit-animation: bg-color 10s infinite;
+  section {
+    h1 {
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    hr {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  }
+}
+
+//Current Location Icon
+.current-location {
+  width: 40px;
+  height: 40px;
+  path {
+    fill: #000;
+  }
+  .ring_outer {
+    animation: opacityPulse 2s cubic-bezier(1, 0.14, 1, 1);
+    animation-iteration-count: infinite;
+    opacity: 0.5;
+  }
+  .ring_inner {
+    animation: opacityPulse 2s cubic-bezier(0.4, 0.74, 0.56, 0.82);
+    animation-iteration-count: infinite;
+    opacity: 0.8;
+  }
+}
+
+.checked-location {
+  width: 30px;
+  height: 40px;
+}
+
+//CSS3 Animations
+@-webkit-keyframes bg-color {
+  0% {
+    background-color: #e74c3c;
+  }
+  20% {
+    background-color: #f1c40f;
+  }
+  40% {
+    background-color: #1abc9c;
+  }
+  60% {
+    background-color: #003e80;
+  }
+  80% {
+    background-color: #9b59b6;
+  }
+  100% {
+    background-color: #e74c3c;
+  }
+}
+
+@keyframes bg-color {
+  0% {
+    background-color: #e74c3c;
+  }
+  20% {
+    background-color: #f1c40f;
+  }
+  40% {
+    background-color: #1abc9c;
+  }
+  60% {
+    background-color: #003e80;
+  }
+  80% {
+    background-color: #9b59b6;
+  }
+  100% {
+    background-color: #e74c3c;
+  }
+}
+
+@keyframes opacityPulse {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}

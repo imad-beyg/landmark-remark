@@ -1,0 +1,66 @@
+.btn-add-note {
+    z-index: 1070;
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    cursor: pointer;
+    left: 0;
+    margin: 0 auto;
+    width: 200px;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.message-form {
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    left: 0px;
+    margin: 0 auto;
+    width: 300px;
+    z-index: 1070;
+    video {
+        height: 260px;
+    }
+    .btn-cancel {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        background: none;
+        border: 1px solid black;
+        border-radius: 25px;
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        transform-origin: "center center";
+        &:hover {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+.thanks-form {
+    z-index: 1070;
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    max-width: 330px;
+    left: 0;
+    margin: 0 auto;
+}
+
+.search-form-container {
+    position: absolute;
+    z-index: 1070;
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 300px;
+    .form-group {
+        margin: 0px;
+    }
+}

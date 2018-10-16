@@ -1,0 +1,30 @@
+.leaflet-popup {
+  font-family: $font-family-sans-serif;
+  .leaflet-popup-content-wrapper {
+    border-radius: 5px;
+    .leaflet-popup-content {
+      margin: 25px 35px;
+    }
+  }
+  a {
+    &.leaflet-popup-close-button {
+      font-family: $font-family-sans-serif;
+      right: 10px;
+      font-size: 24px;
+      font-weight: 300;
+      width: 25px;
+      height: 25px;
+      border-radius: 25px;
+      border: 2px solid black;
+      color: black !important;
+      padding: 4px 0px;
+      text-align: center;
+      top: 10px;
+      transform-origin: "center center";
+      transition: all 0.5s ease-in-out;
+      &:hover {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
