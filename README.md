@@ -13,14 +13,17 @@ functionality captured in the following user stories:
 
 ![Project Images](https://github.com/imad-beyg/landmark-remark/blob/master/project.gif)
 
-Frontend Stack:
+###Frontend Stack
 
 ```
 React, Redux, Leaflet,  Webpack4, Babel, SASS, Bootstrap 4
 ```
 
-Backend Stack:
+###Backend Stack
+
+```
 Node, Express, MongoDB
+```
 
 ## Getting Started
 
