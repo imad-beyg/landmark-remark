@@ -11,7 +11,7 @@ functionality captured in the following user stories:
 4.  As a user I can see the location, text, and user-name of notes other users have saved
 5.  As a user I have the ability to search for a note based on contained text or username
 
-![Project Images](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Project Images](https://github.com/imad-beyg/landmark-remark/blob/master/project.gif)
 
 Frontend Stack:
 
